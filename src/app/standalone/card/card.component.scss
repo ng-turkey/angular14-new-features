@@ -1,0 +1,29 @@
+:host {
+  display: block;
+}
+
+.mat-card {
+  display: block;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  &-header {
+    border-bottom: 1px solid #64646f33;
+  }
+
+  &-content {
+    padding: 2rem;
+  }
+
+  &-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+
+    button:active {
+      background-color: red;
+      color: white;
+    }
+  }
+}

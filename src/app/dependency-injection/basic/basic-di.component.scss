@@ -1,0 +1,16 @@
+.post {
+  padding: 1rem;
+  border: 1px solid #64646f33;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+
+  .title {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .body {
+    color: #6c757d;
+  }
+}
